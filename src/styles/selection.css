@@ -1,15 +1,16 @@
-body {
+/* body {
     display: grid;
-    /* background-color: blue; */
-}
+    background-color: blue;
+} */
 
 .option {
+    display: grid;
     background-color: cadetblue;
     border-radius: 4px;
     margin: 0 auto;
     width: 50%;
     padding: 8px;
-    row-gap: 12px;
+    /* row-gap: 12px; */
 }
 
 .btnOption {
