@@ -1,5 +1,6 @@
 body {
     display: grid;
+    /* background-color: blue; */
 }
 
 .option {
@@ -8,10 +9,10 @@ body {
     margin: 0 auto;
     width: 50%;
     padding: 8px;
-    gap: 10px;
+    row-gap: 12px;
 }
 
-.btnOption  {
+.btnOption {
     margin: auto;
     width: 100%;
     border: none;
@@ -22,7 +23,7 @@ body {
     font-size: 1.2rem;
 }
 
-.btnOption:hover    {
+.btnOption:hover {
     background-color: black;
     color: white;
 }
