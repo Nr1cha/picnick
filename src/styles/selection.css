@@ -3,7 +3,7 @@
     background-color: blue;
 } */
 
-.option {
+.optionParent {
     display: grid;
     background-color: cadetblue;
     border-radius: 4px;
