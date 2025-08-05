@@ -1,0 +1,23 @@
+.animationBar p {
+    background-color: #101057;
+    display: grid;
+    /* margin: auto; */
+    height: 1%;
+    width: 0%;
+    animation-name: loading-bar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* background-image: linear-gradient(to right, green, yellow); */
+}
+
+@keyframes loading-bar {
+    from {
+        width: 0%;
+        padding: 1%;
+    }
+
+    to {
+        width: 88%;
+        padding: 1%;
+    }
+}
